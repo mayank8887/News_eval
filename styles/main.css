@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+}
+#sidebar{
+    flex:2;
+    border: solid 1px black;
+}
+#main{
+    flex:8;
+    display: grid;
+    border: solid 1px black;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3%;
+}
+#main>div{
+    border: solid 1px black;
+    width: 80%;
+}
+div>img{
+    width: 100%;
+}
